@@ -12,7 +12,7 @@ const Header = () => {
         <NavLink to="/contact">Contact</NavLink>
       </nav>
       <section>
-        <button className="text-[#FF3811] border border-[#FF3811] px-7 py-4 rounded-md">
+        <button className="text-[#FF3811] font-semibold border border-[#FF3811] px-7 py-4 rounded-md">
           Appointment
         </button>
       </section>

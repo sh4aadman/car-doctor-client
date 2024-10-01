@@ -6,7 +6,7 @@ const Feature = (props) => {
 
     return (
         <div className="border rounded-lg p-7 text-center">
-            <img className="w-12 h-12 mx-auto" src={img} alt="" />
+            <img className="w-12 h-12 mx-auto" src={img} alt={title} />
             <p className="text-[#444444] font-bold text-sm mt-5">{title}</p>
         </div>
     );

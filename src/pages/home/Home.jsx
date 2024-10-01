@@ -1,6 +1,7 @@
 import AboutUs from "./AboutUs";
 import Carousel from "./Carousel";
 import Info from "./Info";
+import MeetTeam from "./MeetTeam";
 import PopularProducts from "./PopularProducts";
 import Services from "./Services";
 
@@ -12,6 +13,7 @@ const Home = () => {
       <Services />
       <Info />
       <PopularProducts />
+      <MeetTeam />
     </div>
   );
 };

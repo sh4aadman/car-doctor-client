@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 
 const ServiceCard = (props) => {
   const { data } = props;
-  console.log(data);
 
   return (
     <div className="p-6 border rounded-lg">
@@ -16,10 +15,10 @@ const ServiceCard = (props) => {
       <div className="mt-5">
         <h2 className="font-bold text-2xl text-[#444444] mb-5">{data.title}</h2>
         <div className="flex justify-between">
-          <p className="text-[#FF3811] font-medium text-xl">
+          <p className="text-[#FF3811] font-semibold text-sm">
             Price: ${data.price}
           </p>
-          <button className="text-[#FF3811]"> ❯ </button>
+          <button className="text-[#FF3811] text-sm"> ❯ </button>
         </div>
       </div>
     </div>

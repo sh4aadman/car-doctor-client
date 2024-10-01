@@ -1,5 +1,6 @@
 import AboutUs from "./AboutUs";
 import Carousel from "./Carousel";
+import CoreFeatures from "./CoreFeatures";
 import Info from "./Info";
 import MeetTeam from "./MeetTeam";
 import PopularProducts from "./PopularProducts";
@@ -14,6 +15,7 @@ const Home = () => {
       <Info />
       <PopularProducts />
       <MeetTeam />
+      <CoreFeatures />
     </div>
   );
 };

@@ -8,49 +8,49 @@ const Carousel = () => {
   return (
     <div className="carousel">
       <div id="slide1" className="carousel-item relative w-full">
-        <img src={carousel1} className="w-full" />
-        <div className="absolute">
+        <img src={carousel1} className="w-full h-[600px] rounded-xl" />
+        <div className="absolute w-full">
           <CarouselContent />
-          <a href="#slide4" className="btn btn-circle">
+          <a href="#slide4" className="absolute btn btn-circle bg-transparent text-white border-none bottom-12 right-32">
             ❮
           </a>
-          <a href="#slide2" className="btn btn-circle">
+          <a href="#slide2" className="absolute btn btn-circle bg-[#FF3811] text-white border-none bottom-12 right-16">
             ❯
           </a>
         </div>
       </div>
       <div id="slide2" className="carousel-item relative w-full">
-        <img src={carousel2} className="w-full" />
-        <div className="absolute">
+        <img src={carousel2} className="w-full h-[600px] rounded-xl" />
+        <div className="absolute w-full">
           <CarouselContent />
-          <a href="#slide1" className="btn btn-circle">
+          <a href="#slide1" className="absolute btn btn-circle bg-transparent text-white border-none bottom-12 right-32">
             ❮
           </a>
-          <a href="#slide3" className="btn btn-circle">
+          <a href="#slide3" className="absolute btn btn-circle bg-[#FF3811] text-white border-none bottom-12 right-16">
             ❯
           </a>
         </div>
       </div>
       <div id="slide3" className="carousel-item relative w-full">
-        <img src={carousel3} className="w-full" />
-        <div className="absolute">
+        <img src={carousel3} className="w-full h-[600px] rounded-xl" />
+        <div className="absolute w-full">
           <CarouselContent />
-          <a href="#slide2" className="btn btn-circle">
+          <a href="#slide2" className="absolute btn btn-circle bg-transparent text-white border-none bottom-12 right-32">
             ❮
           </a>
-          <a href="#slide4" className="btn btn-circle">
+          <a href="#slide4" className="absolute btn btn-circle bg-[#FF3811] text-white border-none bottom-12 right-16">
             ❯
           </a>
         </div>
       </div>
       <div id="slide4" className="carousel-item relative w-full">
-        <img src={carousel4} className="w-full" />
-        <div className="absolute">
+        <img src={carousel4} className="w-full h-[600px] rounded-xl" />
+        <div className="absolute w-full">
           <CarouselContent />
-          <a href="#slide3" className="btn btn-circle">
+          <a href="#slide3" className="absolute btn btn-circle bg-transparent text-white border-none bottom-12 right-32">
             ❮
           </a>
-          <a href="#slide1" className="btn btn-circle">
+          <a href="#slide1" className="absolute btn btn-circle bg-[#FF3811] text-white border-none bottom-12 right-16">
             ❯
           </a>
         </div>

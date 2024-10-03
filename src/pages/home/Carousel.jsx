@@ -9,7 +9,7 @@ const Carousel = () => {
     <div className="carousel mt-8">
       <div id="slide1" className="carousel-item relative w-full">
         <img src={carousel1} className="w-full h-[600px] rounded-xl" />
-        <div className="absolute w-full">
+        <div className="absolute w-full bg-gradient-to-r from-[#151515FF] to-[#15151500] h-full rounded-xl">
           <CarouselContent />
           <a
             href="#slide4"
@@ -27,7 +27,7 @@ const Carousel = () => {
       </div>
       <div id="slide2" className="carousel-item relative w-full">
         <img src={carousel2} className="w-full h-[600px] rounded-xl" />
-        <div className="absolute w-full">
+        <div className="absolute w-full bg-gradient-to-r from-[#151515FF] to-[#15151500] h-full rounded-xl">
           <CarouselContent />
           <a
             href="#slide1"
@@ -45,7 +45,7 @@ const Carousel = () => {
       </div>
       <div id="slide3" className="carousel-item relative w-full">
         <img src={carousel3} className="w-full h-[600px] rounded-xl" />
-        <div className="absolute w-full">
+        <div className="absolute w-full bg-gradient-to-r from-[#151515FF] to-[#15151500] h-full rounded-xl">
           <CarouselContent />
           <a
             href="#slide2"
@@ -63,7 +63,7 @@ const Carousel = () => {
       </div>
       <div id="slide4" className="carousel-item relative w-full">
         <img src={carousel4} className="w-full h-[600px] rounded-xl" />
-        <div className="absolute w-full">
+        <div className="absolute w-full bg-gradient-to-r from-[#151515FF] to-[#15151500] h-full rounded-xl">
           <CarouselContent />
           <a
             href="#slide3"
